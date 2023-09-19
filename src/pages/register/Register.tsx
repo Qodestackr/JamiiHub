@@ -67,6 +67,22 @@ function Register() {
 
       <div className="mb-4">
         <Input
+          label="Phone Number"
+          type="tel"
+          placeholder="e.g 254700652437"
+          {...register("phone_number", {
+            required: "Phone Number is required",
+          })}
+        />
+        {errors.phone_number && (
+          <p className="text-red-500">
+            {errors.phone_number.message as ReactNode}
+          </p>
+        )}
+      </div>
+
+      <div className="mb-4">
+        <Input
           label="Password"
           type="password"
           placeholder="Enter your password"
@@ -89,37 +105,7 @@ function Register() {
         )}
       </div>
 
-      <div className="mb-4">
-        <Input
-          label="Organization Name"
-          type="text"
-          placeholder="Enter your organization name"
-          {...register("organization_name", {
-            required: "Organization name is required",
-          })}
-        />
-        {errors.organization_name && (
-          <p className="text-red-500">
-            {errors.organization_name.message as ReactNode}
-          </p>
-        )}
-      </div>
-      <div className="mb-4">
-        <Input
-          label="Company Address"
-          type="text"
-          placeholder="Enter your company address"
-          {...register("company_address", {
-            required: "Company address is required",
-          })}
-        />
-        {errors.company_address && (
-          <p className="text-red-500">
-            {errors.company_address.message as ReactNode}
-          </p>
-        )}
-      </div>
-      <div className="mb-4">
+      {/* <div className="mb-4">
         <label htmlFor="industry">Select Organization Type</label>
         <Select>
           <SelectTrigger>
@@ -136,39 +122,7 @@ function Register() {
         {errors.industry && (
           <p className="text-red-500">{errors.industry.message as ReactNode}</p>
         )}
-      </div>
-
-      <div className="mb-4">
-        <Input
-          label="Contact Person Name"
-          type="text"
-          placeholder="Enter contact person name"
-          {...register("contact_person_name", {
-            required: "Contact person name is required",
-          })}
-        />
-        {errors.contact_person_name && (
-          <p className="text-red-500">
-            {errors.contact_person_name.message as ReactNode}
-          </p>
-        )}
-      </div>
-      <div className="mb-4">
-        <Input
-          label="Contact Email"
-          type="email"
-          placeholder="Enter contact email"
-          {...register("contact_email", {
-            required: "Contact email is required",
-          })}
-        />
-        {errors.contact_email && (
-          <p className="text-red-500">
-            {errors.contact_email.message as ReactNode}
-          </p>
-        )}
-      </div>
-
+      </div> */}
       <Button type="submit">
         {signUpMutation.isLoading ? "Registering..." : "Register"}
       </Button>

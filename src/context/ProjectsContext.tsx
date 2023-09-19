@@ -7,16 +7,16 @@ export interface IProject {
   projectId: string;
   name: string;
   description: string;
-  teamMembers: string[]; // Array of employeeIds of team members
-  progress: number; // Progress percentage (0 to 100)
+  teamMembers: string[]; //memberIds
+  progress: number; //%
 }
 
 // Create the ProjectsContext
 const ProjectsContext = createContext<
   | {
-      projects: IProject[];
-      createProject: (project: IProject) => void;
-    }
+    projects: IProject[];
+    createProject: (project: IProject) => void;
+  }
   | undefined
 >(undefined);
 

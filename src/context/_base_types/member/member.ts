@@ -17,8 +17,5 @@ export const DELETE_MEMBER = "DELETE_MEMBER";
 export const DELETE_MEMBER_LOADING = "DELETE_MEMBER_LOADING";
 export const DELETE_MEMBER_FAILED = "DELETE_MEMBER_FAILED";
 
-// Simply return an MEMBER object with all these details. An action should trigger an update i.e {...state, action:payload}
-
-// CACHE
 export const VALIDATE_MEMBER_CACHE = "VALIDATE_MEMBER_CACHE";
 export const INVALIDATE_MEMBER_CACHE = "INVALIDATE_MEMBER_CACHE";

@@ -62,4 +62,3 @@ export {
 
 // Context
 export * from "./use-safe-context/useSafeContext";
-export * from "./use-app-routes/useAppRoutes";

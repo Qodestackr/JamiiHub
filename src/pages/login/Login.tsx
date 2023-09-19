@@ -44,11 +44,11 @@ function Login() {
         <Input
           label="Phone/Email"
           type="text"
-          placeholder="Enter your username"
-          {...register("username", { required: "Username is required" })}
+          placeholder="Enter phone or email"
+          {...register("phoneOrEmail", { required: "This field is required" })}
         />
-        {errors.username && (
-          <p className="text-red-500">{errors.username.message as ReactNode}</p>
+        {errors.phoneOrEmail && (
+          <p className="text-red-500">{errors.phoneOrEmail.message as ReactNode}</p>
         )}
       </div>
       <div className="mb-4">

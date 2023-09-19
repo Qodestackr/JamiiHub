@@ -15,13 +15,10 @@ export const LOADING_USER_SUCCESS = "LOADING_USER_SUCCESS";
 export const AUTH_ERROR = "AUTH_ERROR";
 
 export const LOGOUT = "LOGOUT";
-// export const LOGOUT_LOADING = 'LOGOUT_LOADING'
+
 export const LOGOUT_SUCCESS = "LOGOUT_SUCCESS";
-export const LOGOUT_FAILED = "LOGOUT_FAILED"; //!Rare
+export const LOGOUT_FAILED = "LOGOUT_FAILED";
 
-// updates??
-
-// Permissions
 export const ADD_PERMISSION = "ADD_PERMISSION";
 export const DELETE_PERMISSION = "DELETE_PERMISSION";
 export const GET_PERMISSIONS = "GET_PERMISSIONS";

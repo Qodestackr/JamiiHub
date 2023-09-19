@@ -18,7 +18,7 @@ export interface IProject<T> {
   endDate: Date;
   milestones: Array<{ name: string; date: Date }>; // List of project milestones and their dates
   tasks: T[]; // Array of tasks specific to the project, using a generic type T
-  addHRTask?: (task: IOrganizationTask) => void;
-  removeHRTask?: (taskId: string) => void;
-  updateHRTask?: (taskId: string, updatedTask: Partial<IOrganizationTask>) => void;
+  addOrganizationTask?: (task: IOrganizationTask) => void;
+  removeOrganizationTask?: (taskId: string) => void;
+  updateOrganizationTask?: (taskId: string, updatedTask: Partial<IOrganizationTask>) => void;
 }

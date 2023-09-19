@@ -10,8 +10,6 @@ export function SettingsContextProvider({
 }: {
   children: React.ReactNode;
 }) {
-  // Implement your state and functions here based on the ISettings interface
-  // For simplicity, let's just use a placeholder value for now
   const settings: ISettings = {
     language: "en",
     timeZone: "UTC",
@@ -19,18 +17,12 @@ export function SettingsContextProvider({
     theme: "light",
     enableNotifications: true,
     notificationSound: "default",
-    setNotificationSound: (sound) => {},
-    backupOption: "midnight",
-    setBackupOption: (option) => {},
-    setCustomBackupFrequency: (frequency) => {},
-    showSidebar: true,
-    compactMode: false,
+    setNotificationSound: (sound) => { },
     fontSize: 16,
-    showAvatars: true,
-    toggleSidebar: () => {},
-    toggleCompactMode: () => {},
-    setFontSize: (size) => {},
-    toggleShowAvatars: () => {},
+    toggleSidebar: () => { },
+    toggleCompactMode: () => { },
+    setFontSize: (size) => { },
+    toggleShowAvatars: () => { },
   };
 
   return (
@@ -40,7 +32,6 @@ export function SettingsContextProvider({
   );
 }
 
-// Hook to use the SettingsContext
 export function useSettingsContext() {
   const context = useContext(SettingsContext);
   if (!context) {

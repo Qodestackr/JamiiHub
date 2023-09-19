@@ -59,12 +59,11 @@ export const paymentMethods = [
   "Off-chain",
   "Stablecoins",
   "Cryptocurrency",
-  "Fiat",
-  "Other",
-  "Rainbow",
+  "Rainbow Wallet",
   "Coinbase Wallet",
   "MetaMask",
-  "WalletConnect"
+  "WalletConnect",
+  "Other",
 ];
 
 export const notificationTypes = ["success", "error", "warning", "info"];

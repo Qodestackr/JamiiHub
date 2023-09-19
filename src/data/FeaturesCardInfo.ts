@@ -3,7 +3,7 @@ import featureIcon from "../assets/images/apps-9.svg";
 export const FeaturesCardInfo = [
   {
     iconSrc: featureIcon,
-    bg: "bg-[#F25767]",
+    bg: "bg-[#0B163F]",
     title: `Payments Made Easy`,
     description: `Out of the box secure payment system 
     that seamlessly allows members to contribute funds conveniently using digital currencies`,
@@ -11,7 +11,7 @@ export const FeaturesCardInfo = [
   },
   {
     iconSrc: featureIcon,
-    bg: "bg-[#175CFF]",
+    bg: "bg-[#0B163F]",
     title: `Transparent and Secure`,
     description: `All transactions, votes, and decisions are recorded securely on the blockchain, 
     ensuring transparency and accountability.`,
@@ -24,7 +24,7 @@ export const FeaturesCardInfo = [
     description: `Appropriately grow cooperatively with a sound process without state.`,
     btnLink: `/`,
   },
-  { //...
+  {
     iconSrc: featureIcon,
     bg: "bg-[#0B163F]",
     title: `Transparent Record Keeping`,

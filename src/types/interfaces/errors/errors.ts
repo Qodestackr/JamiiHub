@@ -5,7 +5,7 @@ import React, { ErrorInfo } from "react";
 //   error: E | null
 // }
 
-interface ErrorBoundaryProps {
+export interface ErrorBoundaryProps {
   fallback: React.ReactNode;
   showDialog?: boolean;
   dialogOptions?: any;
@@ -15,7 +15,7 @@ interface ErrorBoundaryProps {
   beforeCapture?: (scope: any, error: ErrorInfo) => void;
 }
 
-interface ErrorBoundaryState {
+export interface ErrorBoundaryState {
   hasError: boolean;
   error: Error | null;
   componentStack: string | null;

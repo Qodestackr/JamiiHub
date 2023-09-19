@@ -36,14 +36,12 @@ export default function ForgotPassword() {
         <div className="mb-4">
           <Input
             label="Phone/Email"
-            type="email"
-            placeholder="Enter your email"
-            {...register("email", { required: "Email is required" })}
+            type="text"
+            placeholder="Enter phone or email"
+            {...register("phoneOrEmail", { required: "This field is required" })}
           />
-          {errors.email && (
-            <p className="text-red-500">
-              {errors.email.message as ReactNode}
-            </p>
+          {errors.phoneOrEmail && (
+            <p className="text-red-500">{errors.phoneOrEmail.message as ReactNode}</p>
           )}
         </div>
 
