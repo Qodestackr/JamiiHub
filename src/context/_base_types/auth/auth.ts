@@ -1,0 +1,30 @@
+// Authentication
+export const REGISTER = "REGISTER";
+export const REGISTER_LOADING = "REGISTER_LOADING";
+export const REGISTER_SUCCESS = "REGISTER_SUCCESS";
+export const REGISTER_FAILED = "REGISTER_FAILED";
+
+export const LOGIN = "LOGIN";
+export const LOGIN_LOADING = "LOGIN_LOADING";
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const LOGIN_FAILED = "LOGIN_FAILED";
+
+export const LOAD_USER = "LOAD_USER";
+export const LOADING_USER = "LOADING_USER";
+export const LOADING_USER_SUCCESS = "LOADING_USER_SUCCESS";
+export const AUTH_ERROR = "AUTH_ERROR";
+
+export const LOGOUT = "LOGOUT";
+// export const LOGOUT_LOADING = 'LOGOUT_LOADING'
+export const LOGOUT_SUCCESS = "LOGOUT_SUCCESS";
+export const LOGOUT_FAILED = "LOGOUT_FAILED"; //!Rare
+
+// updates??
+
+// Permissions
+export const ADD_PERMISSION = "ADD_PERMISSION";
+export const DELETE_PERMISSION = "DELETE_PERMISSION";
+export const GET_PERMISSIONS = "GET_PERMISSIONS";
+export const ADD_PERMISSIONGROUP = "ADD_PERMISSIONGROUP";
+export const DELETE_PERMISSIONGROUP = "DELETE_PERMISSIONGROUP";
+export const GET_PERMISSIONGROUPS = "GET_PERMISSIONGROUPS";
