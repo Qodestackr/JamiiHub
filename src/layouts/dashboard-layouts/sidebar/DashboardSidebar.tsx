@@ -27,10 +27,10 @@ const adminItems = [
     name: "Organizations",
     icon: OrganizationIcon,
   },
-  { route: "/dashboard/employees", name: "Members", icon: MembersIcon },
+  { route: "/dashboard/members", name: "Members", icon: MembersIcon },
   { route: "/dashboard/events", name: "Events", icon: EventIcon },
   { route: "/dashboard/wallet", name: "Wallet", icon: Wallet },
-  { route: "/dashboard/contributions", name: "Contributions", icon: ContibutionIcon },
+  { route: "/dashboard/contribution", name: "Contribution", icon: ContibutionIcon },
   { route: "/login", name: "Logout", icon: LogOutIcon }
 ];
 

@@ -49,6 +49,7 @@
     "react-router-dom": "^6.16.0",
     "tailwind-merge": "^1.14.0",
     "tailwindcss-animate": "^1.0.7",
+    "use-wallet": "^0.14.0",
     "usehooks-ts": "^2.9.1",
     "viem": "^1.10.14",
     "wagmi": "^0.9.6",

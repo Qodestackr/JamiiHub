@@ -113,7 +113,7 @@ const Features = () => {
   return (
     <FeaturesContainer>
       <FeaturesTitle
-        title="With all the Features You Need"
+        title="With all the Features You Need to Build Together"
         description="Credibly grow premier your community with Transparency."
       />
 

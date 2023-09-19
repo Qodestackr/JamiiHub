@@ -21,10 +21,6 @@ export const DAO_FOOTER_LINKS = [
     link: "/proposals",
   },
   {
-    name: "Voting",
-    link: "/voting",
-  },
-  {
     name: "Members",
     link: "/members",
   },
@@ -59,7 +55,6 @@ export const PRODUCTS_FOOTER_LINKS = [
 
 export const NAV_DEFAULT_LINKS = [
   { to: "/proposals", text: "Proposals" },
-  { to: "/voting", text: "Voting" },
   { to: "/members", text: "Members" },
   { to: "/register", text: "Register" },
   { to: "/login", text: "Login" },
@@ -80,11 +75,6 @@ export const MOBILE_NAV_LINKS = [
     to: "/members",
     text: "Members",
     className: "mx-4 bg-white text-slate-600",
-  },
-  {
-    to: "/voting",
-    text: "Voting",
-    className: "mx-4 bg-white text-slate-600"
   },
   {
     to: "/register",

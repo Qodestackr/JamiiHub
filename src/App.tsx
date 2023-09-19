@@ -57,27 +57,24 @@ function App() {
         {/*  */}
         <Route path="/dashboard" element={<DashboardHome />}>
           <Route
-            path="employees"
+            path="members"
             element={/**<UnderConstruction /> */ <TableDemo />}
           />
           <Route path="settings" element={<UnderConstruction />} />
           <Route path="payments" element={<TableDemo />}>
             <Route path="balances" element={<TableDemo />} />
-            <Route path="bulk-payments" element={<TableDemo />} />
             <Route path="statutory-payments" element={<TableDemo />} />
           </Route>
           <Route path="wallet" element={<TableDemo />} />
-          <Route path="messages" element={<TableDemo />} />
-          <Route path="organizations" element={<TableDemo />} />
+          <Route path="organization" element={<TableDemo />} />
           <Route path="events" element={<TableDemo />} />
           <Route path="notice-board" element={<TableDemo />} />
           <Route path="projects" element={<TableDemo />} />
-          <Route path="contributions" element={<MemberContribution />} />
+          <Route path="contribution" element={<MemberContribution />} />
           <Route path="documents" element={<TableDemo />} />
           <Route path="backups" element={<TableDemo />} />
         </Route>
         {/*  */}
-
         <Route path="/*" element={<UnderConstruction />} />
       </Routes>
 

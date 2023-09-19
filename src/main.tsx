@@ -7,14 +7,14 @@ import { Integrations } from "@sentry/tracing";
 import * as Sentry from "@sentry/react";
 import { BrowserRouter } from "react-router-dom";
 
-// import { getDefaultWallets, RainbowKitProvider } from '@rainbow-me/rainbowkit';
-// import { goerli } from 'wagmi/chains';
-// import { alchemyProvider } from 'wagmi/providers/alchemy';
+import { getDefaultWallets, RainbowKitProvider } from '@rainbow-me/rainbowkit';
+import { goerli } from 'wagmi/chains';
+import { alchemyProvider } from 'wagmi/providers/alchemy';
 
-// // import { configureChains, mainnet } from 'wagmi'
-// import { WagmiConfig, createClient, configureChains, mainnet } from 'wagmi'
+// import { configureChains, mainnet } from 'wagmi'
+import { WagmiConfig, createClient, configureChains, mainnet } from 'wagmi'
 
-// import { publicProvider } from 'wagmi/providers/public'
+import { publicProvider } from 'wagmi/providers/public'
 
 Sentry.init({
   dsn: import.meta.env.VITE_SENTRY,
