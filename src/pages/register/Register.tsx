@@ -41,7 +41,7 @@ function Register() {
       className="w-10/12 md:w-8/12 mx-auto"
       onSubmit={handleSubmit(registerSubmitHandler)}
     >
-      <h1 className="text-3xl">Register Your Organization into JamiiHub</h1>
+      <h1 className="text-3xl">Register | JamiiHub</h1>
       <div className="my-4">
         <Input
           label="First and Last Name"
