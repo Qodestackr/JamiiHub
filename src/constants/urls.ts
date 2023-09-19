@@ -1,7 +1,6 @@
 export const JAMII_DAO_BASE_URL = "/api/jamii-dao";
 export const DONATE_URL = "https://pay.fonbnk.com/?freezeWallet=1&network=POLYGON&address=0xa6dBAE6239E2B18A8c60E8F0EC2eE84ca623e5c2";
 
-
 // Members and Requests
 export const GET_MEMBERS_URL = `${JAMII_DAO_BASE_URL}/members`;
 export const ADD_MEMBER_URL = `${JAMII_DAO_BASE_URL}/members/add`;
