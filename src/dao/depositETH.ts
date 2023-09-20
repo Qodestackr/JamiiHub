@@ -6,7 +6,7 @@ import { context } from "../context/aragonContext";
 const client: Client = new Client(context);
 
 const depositParams: DepositParams = {
-    daoAddressOrEns: "my-dao.dao.eth",
+    daoAddressOrEns: "jamiihub.dao.eth",
     amount: BigInt(10), // amount in wei
     type: TokenType.NATIVE, // "native" for ETH, otherwise "erc20" for ERC20 tokens
 };

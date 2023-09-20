@@ -1,5 +1,11 @@
 export const JAMII_DAO_BASE_URL = "/api/jamii-dao";
+export const FONBANK_WALLET = `https://pay.fonbnk.com/wallet`
+export const FONBANK_PHONE_PAGE = `https://pay.fonbnk.com/phone`
+
+export const FONBANK_OTP_PAGE = `https://pay.fonbnk.com/otp`
+
 export const DONATE_URL = "https://pay.fonbnk.com/?freezeWallet=1&network=POLYGON&address=0xa6dBAE6239E2B18A8c60E8F0EC2eE84ca623e5c2";
+export const FONBANK_MAIN_URL = `https://pay.fonbnk.com/?freezeWallet=1&network=POLYGON&address=0xa6dBAE6239E2B18A8c60E8F0EC2eE84ca623e5c2`
 
 // Members and Requests
 export const GET_MEMBERS_URL = `${JAMII_DAO_BASE_URL}/members`;

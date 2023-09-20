@@ -14,8 +14,8 @@ import { context } from "../context/aragonContext";
 const client: Client = new Client(context);
 
 const metadata: DaoMetadata = {
-    name: "My DAO",
-    description: "This is a description",
+    name: `JamiiHub DAO`,
+    description: `**JamiiHub** is a proposed digital platform that brings together individuals and organizations for East Africa`,
     avatar: "image-url",
     links: [{
         name: "Web site",

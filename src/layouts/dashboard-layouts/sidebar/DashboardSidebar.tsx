@@ -1,17 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-import { useWindowSize } from "@core/hooks";
 
 import {
   HomeIcon,
-  MessagesSquare,
   Box as OrganizationIcon,
   Users as MembersIcon,
   CalendarCheck2 as EventIcon,
   Wallet,
   CreditCard as ContibutionIcon,
-  Receipt as BillingIcon,
-  Lock as AdminActionOnlyIcon,
   Banknote as DepositIcon,
   LogOutIcon
 } from "lucide-react";
@@ -24,7 +20,7 @@ const sidebarItems = [
 const adminItems = [
   {
     route: "/dashboard/organization",
-    name: "Organizations",
+    name: "Organization",
     icon: OrganizationIcon,
   },
   { route: "/dashboard/members", name: "Members", icon: MembersIcon },

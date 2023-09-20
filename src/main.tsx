@@ -1,17 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App";
-import "./App.css";
-
-import { Integrations } from "@sentry/tracing";
 import * as Sentry from "@sentry/react";
 import { BrowserRouter } from "react-router-dom";
 
+import App from "./App";
+import "./App.css";
+
 import { getDefaultWallets, RainbowKitProvider } from '@rainbow-me/rainbowkit';
-import { polygon, polygonMumbai } from 'wagmi/chains';
+import { polygonMumbai } from 'wagmi/chains';
 import { alchemyProvider } from 'wagmi/providers/alchemy';
 import { WagmiConfig, createClient, configureChains, mainnet } from 'wagmi'
-
 import { publicProvider } from 'wagmi/providers/public'
 
 Sentry.init({
@@ -30,7 +28,7 @@ Sentry.init({
 });
 
 // const { chains, provider, webSocketProvider } = configureChains(
-//   [polygonMumbai, polygon,],
+//   [polygonMumbai,],
 //   [
 //     // Make sure to get your own API Key from Alchemy itself and store it within your .env file: https://dashboard.alchemy.com/
 //     alchemyProvider({ apiKey: import.meta.env.VITE_ALCHEMY_GOERLI_KEY || '' }),

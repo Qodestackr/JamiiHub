@@ -13,7 +13,6 @@ export * from "./toggle/Toggle";
 export * from "./avatar/Avatar";
 export * from "./dialog/Dialog";
 export * from "./nav/NavigationMenu";
-export * from "./steps/Steps";
 export * from "./badge/Badge";
 export * from "./dropdown-menu/DropdownMenu";
 export * from "./pagination/Pagination";

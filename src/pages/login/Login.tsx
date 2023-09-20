@@ -39,7 +39,7 @@ function Login() {
       className="w-10/12 md:w-8/12 mx-auto"
       onSubmit={handleSubmit(loginSubmitHandler)}
     >
-      <h1 className="text-3xl">Log | JamiiHub</h1>
+      <h1 className="text-3xl">Login | JamiiHub</h1>
       <div className="mb-4">
         <Input
           label="Phone/Email"

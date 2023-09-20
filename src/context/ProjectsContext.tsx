@@ -39,7 +39,6 @@ export function ProjectsContextProvider({
   );
 }
 
-// Hook to use the ProjectsContext
 export function useProjectsContext() {
   const context = useContext(ProjectsContext);
   if (!context) {

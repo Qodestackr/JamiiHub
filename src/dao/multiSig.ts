@@ -33,8 +33,8 @@ const multisigPluginInstallItem = MultisigClient.encoding
 
 // Pin metadata to IPFS, returns IPFS CID string.
 const metadataUri: string = await client.methods.pinMetadata({
-    name: "My DAO",
-    description: "This is a description",
+    name: `JamiiHub DAO`,
+    description: `**JamiiHub** is a proposed digital platform that brings together individuals and organizations for East Africa`,
     avatar: "", // image url
     links: [{
         name: "Web site",

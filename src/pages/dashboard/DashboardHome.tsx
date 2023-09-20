@@ -1,29 +1,35 @@
-import React from "react";
-import {
-  Home as LucidHome,
-  Search,
-  Bell,
-  BellOff,
-  UserCircle,
-  LogOut,
-} from "lucide-react";
-import { Link, Outlet } from "react-router-dom";
-import { Badge } from "@/core/components";
+import { Outlet, useLocation } from "react-router-dom";
+
 import DashboardSidebar from "@/layouts/dashboard-layouts/sidebar/DashboardSidebar";
 import DashboardNav from "@/layouts/dashboard-layouts/DashboardNav";
 
+
+function upperCaseFirstLetter(input: string) {
+  return input.charAt(0).toUpperCase() + input.slice(1);
+}
+
+
 function DashboardHome() {
-  const isAuthenticated = true;
-  const allowNotifications = false;
+  const currentLocation = useLocation();
+  const pathSegments = currentLocation.pathname.split("/");
+  const lastSegment = pathSegments[pathSegments.length - 1];
+
+  const dashboardSection =
+    currentLocation.pathname === "/uc"
+      ? currentLocation.pathname.toUpperCase()
+      : upperCaseFirstLetter(lastSegment);
+
 
   return (
-    <main className="grid lg:grid-cols-[2.5fr,9fr] gap-1 h-screen">
+    <main className="grid lg:grid-cols-[2.5fr,9fr] gap-[3px] h-screen">
       <div className="bg-gray-100">
         <DashboardNav />
-        <h3 className="text-2xl">Welcome Back</h3>
-        {/* Cannot remove the Outlet yet I need render some defaults... Show the way */}
+        <h3 className="text-2xl my-6">{dashboardSection}</h3>
         <div className="shadow-md rounded-md w-full">
-          <Outlet />
+          {
+            currentLocation.pathname === "/dashboard" ? <h1 className="text-5xl text-slate-400 flex justify-center items-center p-10">Welcome Back</h1> : <Outlet />
+          }
+
         </div>
       </div>
 

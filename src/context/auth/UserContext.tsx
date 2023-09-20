@@ -2,20 +2,22 @@ import { createContext, useState, ReactNode, useContext } from "react";
 
 export type UserType = {
     id?: number;
-    username?: string;
+    firstAndLastName?: string;
     email?: string;
-    home_address?: string;
-    phone_number?: string;
-    location?: [number, number] | null;
+    password?: string;
+    phoneNumber?: string;
+    aragonAddress?: string;
+    paymentAddress: string;
 } | null;
 
 const hardcodedUser: UserType = {
     id: 1,
-    username: "john_doe",
+    firstAndLastName: "john doe",
     email: "john@example.com",
-    home_address: "123 Main St",
-    phone_number: "555-123-4567",
-    location: [-1.0362, 37.0728],
+    password: "Password",
+    phoneNumber: "254712345678",
+    aragonAddress: "",
+    paymentAddress: ""
 };
 
 type UserContextType = {

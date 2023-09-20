@@ -25,11 +25,7 @@ export type WebhookRequest = {
         "network": // network user received USDC on
         | "POLYGON"
         | "ETHEREUM"
-        | "STELLAR"
         | "AVALANCHE"
-        | "SOLANA"
-        | "ALGORAND"
-        | "TRON"
         | "CELO"
         "address": string, // address user received USDC on
         "orderParams": string // Content of a orderParams query parameter provided to a pay widget URL. It might be useful for matching a merchant system user to an order user.

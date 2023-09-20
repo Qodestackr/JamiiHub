@@ -1,19 +1,21 @@
+import { useState } from "react";
 import {
   Bell,
   BellOff,
-  Link,
-  LogOut,
-  Search,
   UserCircle,
-  Home as LucidHome,
-  SearchIcon,
 } from "lucide-react";
 
 import { Badge } from "@/core/components";
 
 export default function DashboardNav() {
-  const allowNotifications = false;
+  const [showNotifications, setShowNotifications] = useState<boolean>(true)
+  const allowNotifications = true;
   const isAuthenticated = true;
+
+  const handleNotification = () => {
+    setShowNotifications((showNotifications) => !showNotifications)
+  }
+
   return (
     <div className="bg-primary py-4 flex justify-between items-center mb-2">
       <Badge
@@ -25,7 +27,7 @@ export default function DashboardNav() {
       </Badge>
 
       <div className="flex items-center">
-        <button className="text-muted-foreground mx-3 hover:text-white">
+        <button className="text-muted-foreground mx-3 hover:text-white" onClick={handleNotification}>
           {allowNotifications ? <Bell /> : <BellOff />}
         </button>
         <button className="text-muted-foreground mx-3 hover:text-white">

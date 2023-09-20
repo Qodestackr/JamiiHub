@@ -1,24 +1,24 @@
 import type { Payment } from "@/types/interfaces/payment"
 
-export const employeePayrollData: Payment[] = [
+export const memberPaymentData: Payment[] = [
   {
-    "id": "e1",
+    "id": "0xa6dBAE6239E2B18A8c60E8F0EC2eE84ca623e5c2",
     "name": "John Doe",
     "position": "Software Engineer",
     "amount": 0,
-    "status": "pending",
+    "status": "success",
     "email": "john@example.com"
   },
   {
-    "id": "e2",
+    "id": "0xa6dBAE6239E2B18A8c60E8F0EC2eE84ca623e5c2",
     "name": "Jane Smith",
     "position": "Data Analyst",
     "amount": 0,
-    "status": "pending",
+    "status": "success",
     "email": "jane@example.com"
   },
   {
-    "id": "e3",
+    "id": "0xa6dBAE6239E2B18A8c60E8F0EC2eE84ca623e5c2",
     "name": "Bob Johnson",
     "position": "Product Manager",
     "amount": 0,
@@ -26,15 +26,15 @@ export const employeePayrollData: Payment[] = [
     "email": "bob@example.com"
   },
   {
-    "id": "e4",
+    "id": "0xa6dBAE6239E2B18A8c60E8F0EC2eE84ca623e5c2",
     "name": "Alice Brown",
     "position": "UX Designer",
     "amount": 0,
-    "status": "pending",
+    "status": "success",
     "email": "alice@example.com"
   },
   {
-    "id": "e5",
+    "id": "0xa6dBAE6239E2B18A8c60E8F0EC2eE84ca623e5c2",
     "name": "Charlie Wilson",
     "position": "Quality Assurance",
     "amount": 0,
@@ -42,23 +42,15 @@ export const employeePayrollData: Payment[] = [
     "email": "charlie@example.com"
   },
   {
-    "id": "e6",
+    "id": "0xa6dBAE6239E2B18A8c60E8F0EC2eE84ca623e5c2",
     "name": "Eve Adams",
     "position": "Business Analyst",
     "amount": 0,
-    "status": "pending",
+    "status": "failed",
     "email": "eve@example.com"
   },
   {
-    "id": "e7",
-    "name": "David Lee",
-    "position": "Project Manager",
-    "amount": 0,
-    "status": "pending",
-    "email": "david@example.com"
-  },
-  {
-    "id": "e8",
+    "id": "0xa6dBAE6239E2B18A8c60E8F0EC2eE84ca623e5c2",
     "name": "Grace Taylor",
     "position": "HR Manager",
     "amount": 0,
@@ -66,7 +58,7 @@ export const employeePayrollData: Payment[] = [
     "email": "grace@example.com"
   },
   {
-    "id": "e9",
+    "id": "0xa6dBAE6239E2B18A8c60E8F0EC2eE84ca623e5c2",
     "name": "Frank Martinez",
     "position": "DevOps Engineer",
     "amount": 0,
@@ -74,7 +66,7 @@ export const employeePayrollData: Payment[] = [
     "email": "frank@example.com"
   },
   {
-    "id": "e10",
+    "id": "0xa6dBAE6239E2B18A8c60E8F0EC2eE84ca623e5c20",
     "name": "Sophia White",
     "position": "Frontend Developer",
     "amount": 0,
@@ -82,7 +74,7 @@ export const employeePayrollData: Payment[] = [
     "email": "sophia@example.com"
   },
   {
-    "id": "e11",
+    "id": "0xa6dBAE6239E2B18A8c60E8F0EC2eE84ca623e5c21",
     "name": "Henry Thomas",
     "position": "Backend Developer",
     "amount": 0,
@@ -90,7 +82,7 @@ export const employeePayrollData: Payment[] = [
     "email": "henry@example.com"
   },
   {
-    "id": "e12",
+    "id": "0xa6dBAE6239E2B18A8c60E8F0EC2eE84ca623e5c22",
     "name": "Olivia Wilson",
     "position": "Marketing Specialist",
     "amount": 0,
@@ -98,7 +90,7 @@ export const employeePayrollData: Payment[] = [
     "email": "olivia@example.com"
   },
   {
-    "id": "e13",
+    "id": "0xa6dBAE6239E2B18A8c60E8F0EC2eE84ca623e5c23",
     "name": "James Garcia",
     "position": "Finance Manager",
     "amount": 0,
@@ -106,7 +98,7 @@ export const employeePayrollData: Payment[] = [
     "email": "james@example.com"
   },
   {
-    "id": "e14",
+    "id": "0xa6dBAE6239E2B18A8c60E8F0EC2eE84ca623e5c24",
     "name": "Linda Rodriguez",
     "position": "Customer Support",
     "amount": 0,
@@ -114,7 +106,7 @@ export const employeePayrollData: Payment[] = [
     "email": "linda@example.com"
   },
   {
-    "id": "e15",
+    "id": "0xa6dBAE6239E2B18A8c60E8F0EC2eE84ca623e5c25",
     "name": "Robert Smith",
     "position": "IT Administrator",
     "amount": 0,
@@ -122,7 +114,7 @@ export const employeePayrollData: Payment[] = [
     "email": "robert@example.com"
   },
   {
-    "id": "e16",
+    "id": "0xa6dBAE6239E2B18A8c60E8F0EC2eE84ca623e5c26",
     "name": "Mia Hernandez",
     "position": "Sales Executive",
     "amount": 0,
@@ -130,7 +122,7 @@ export const employeePayrollData: Payment[] = [
     "email": "mia@example.com"
   },
   {
-    "id": "e17",
+    "id": "0xa6dBAE6239E2B18A8c60E8F0EC2eE84ca623e5c27",
     "name": "Michael Davis",
     "position": "Legal Counsel",
     "amount": 0,
@@ -138,7 +130,7 @@ export const employeePayrollData: Payment[] = [
     "email": "michael@example.com"
   },
   {
-    "id": "e18",
+    "id": "0xa6dBAE6239E2B18A8c60E8F0EC2eE84ca623e5c28",
     "name": "Emily Clark",
     "position": "Graphic Designer",
     "amount": 0,
@@ -146,7 +138,7 @@ export const employeePayrollData: Payment[] = [
     "email": "emily@example.com"
   },
   {
-    "id": "e19",
+    "id": "0xa6dBAE6239E2B18A8c60E8F0EC2eE84ca623e5c29",
     "name": "Daniel Brown",
     "position": "Operations Manager",
     "amount": 0,
@@ -154,7 +146,7 @@ export const employeePayrollData: Payment[] = [
     "email": "daniel@example.com"
   },
   {
-    "id": "e20",
+    "id": "0xa6dBAE6239E2B18A8c60E8F0EC2eE84ca623e5c20",
     "name": "Ava Martin",
     "position": "Researcher",
     "amount": 0,
@@ -162,7 +154,7 @@ export const employeePayrollData: Payment[] = [
     "email": "ava@example.com"
   },
   {
-    "id": "e21",
+    "id": "0xa6dBAE6239E2B18A8c60E8F0EC2eE84ca623e5c21",
     "name": "William Thompson",
     "position": "Product Designer",
     "amount": 0,
@@ -170,7 +162,7 @@ export const employeePayrollData: Payment[] = [
     "email": "william@example.com"
   },
   {
-    "id": "e22",
+    "id": "0xa6dBAE6239E2B18A8c60E8F0EC2eE84ca623e5c22",
     "name": "Sofia Anderson",
     "position": "Content Writer",
     "amount": 0,
@@ -178,7 +170,7 @@ export const employeePayrollData: Payment[] = [
     "email": "sofia@example.com"
   },
   {
-    "id": "e23",
+    "id": "0xa6dBAE6239E2B18A8c60E8F0EC2eE84ca623e5c23",
     "name": "Jackson Moore",
     "position": "Supply Chain Manager",
     "amount": 0,
@@ -186,7 +178,7 @@ export const employeePayrollData: Payment[] = [
     "email": "jackson@example.com"
   },
   {
-    "id": "e24",
+    "id": "0xa6dBAE6239E2B18A8c60E8F0EC2eE84ca623e5c24",
     "name": "Ella Garcia",
     "position": "Quality Control",
     "amount": 0,
@@ -194,7 +186,7 @@ export const employeePayrollData: Payment[] = [
     "email": "ella@example.com"
   },
   {
-    "id": "e25",
+    "id": "0xa6dBAE6239E2B18A8c60E8F0EC2eE84ca623e5c25",
     "name": "Matthew Wilson",
     "position": "Systems Analyst",
     "amount": 0,
@@ -202,7 +194,7 @@ export const employeePayrollData: Payment[] = [
     "email": "matthew@example.com"
   },
   {
-    "id": "e26",
+    "id": "0xa6dBAE6239E2B18A8c60E8F0EC2eE84ca623e5c26",
     "name": "Aria Lopez",
     "position": "Data Scientist",
     "amount": 0,
@@ -210,7 +202,7 @@ export const employeePayrollData: Payment[] = [
     "email": "aria@example.com"
   },
   {
-    "id": "e27",
+    "id": "0xa6dBAE6239E2B18A8c60E8F0EC2eE84ca623e5c27",
     "name": "Benjamin Allen",
     "position": "Logistics Coordinator",
     "amount": 0,
@@ -218,7 +210,7 @@ export const employeePayrollData: Payment[] = [
     "email": "benjamin@example.com"
   },
   {
-    "id": "e28",
+    "id": "0xa6dBAE6239E2B18A8c60E8F0EC2eE84ca623e5c28",
     "name": "Liam Taylor",
     "position": "Network Engineer",
     "amount": 0,
@@ -226,7 +218,7 @@ export const employeePayrollData: Payment[] = [
     "email": "liam@example.com"
   },
   {
-    "id": "e30",
+    "id": "0xa6dBAE6239E2B18A8c60E8F0EC2eE84ca623e5c20",
     "name": "Christopher Anderson",
     "position": "Business Development",
     "amount": 0,

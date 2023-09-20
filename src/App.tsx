@@ -3,7 +3,6 @@ import { QueryClient, QueryClientProvider } from "react-query";
 import { ReactQueryDevtools } from "react-query/devtools";
 import { createSyncStoragePersister } from "@tanstack/query-sync-storage-persister";
 
-
 import {
   UnderConstruction,
 } from "@core/components";
@@ -59,7 +58,7 @@ function App() {
             <Route path="statutory-payments" element={<TableDemo />} />
           </Route>
           <Route path="wallet" element={<TableDemo />} />
-          <Route path="organization" element={<TableDemo />} />
+          <Route path="organization" element={<UnderConstruction />} />
           <Route path="events" element={<TableDemo />} />
           <Route path="notice-board" element={<TableDemo />} />
           <Route path="projects" element={<TableDemo />} />

@@ -10,43 +10,43 @@ import {
 
 const invoices = [
   {
-    invoice: "INV001",
+    invoice: "0xa6dBAE6239...",
     paymentStatus: "Paid",
     totalAmount: "$JAMII 250.00",
     paymentMethod: "MetaMask",
   },
   {
-    invoice: "INV002",
+    invoice: "0xa6dBAE6239...",
     paymentStatus: "Pending",
     totalAmount: "$JAMII 150.00",
     paymentMethod: "Rainbow",
   },
   {
-    invoice: "INV003",
+    invoice: "0xa6dBAE6239...",
     paymentStatus: "Unpaid",
     totalAmount: "$JAMII 350.00",
     paymentMethod: "Coinbase Wallet",
   },
   {
-    invoice: "INV004",
+    invoice: "0xa6dBAE6239...",
     paymentStatus: "Paid",
     totalAmount: "$JAMII 450.00",
     paymentMethod: "MetaMask",
   },
   {
-    invoice: "INV005",
+    invoice: "0xa6dBAE6239...",
     paymentStatus: "Paid",
     totalAmount: "$JAMII 550.00",
     paymentMethod: "WalletConnect",
   },
   {
-    invoice: "INV006",
+    invoice: "0xa6dBAE6239...",
     paymentStatus: "Pending",
     totalAmount: "$JAMII 200.00",
     paymentMethod: "Coinbase Wallet",
   },
   {
-    invoice: "INV007",
+    invoice: "0xa6dBAE6239...",
     paymentStatus: "Unpaid",
     totalAmount: "$JAMII 300.00",
     paymentMethod: "Rainbow",

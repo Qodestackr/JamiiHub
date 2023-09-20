@@ -1,6 +1,6 @@
 /**
  * Post Common Stuff on the App that is happening around
- */
+*/
 
 export const ADD_NOTICE = "ADD_NOTICE";
 export const ADD_NOTICE_LOADING = "ADD_NOTICE_LOADING";

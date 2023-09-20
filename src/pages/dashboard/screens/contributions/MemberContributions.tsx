@@ -37,7 +37,7 @@ import {
     TableRow,
 } from "@core/components"
 
-import { employeePayrollData as data } from "@/data/payroll/employeePayroll"
+import { memberPaymentData as data } from "@/data/payments/memberPayment"
 
 
 export const columns: ColumnDef<Payment>[] = [
