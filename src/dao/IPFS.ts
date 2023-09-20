@@ -7,7 +7,7 @@ const metadata: DaoMetadata = {
     description: `**JamiiHub** is a proposed digital platform that brings together individuals and organizations for East Africa`,
     avatar: "",
     links: [{
-        name: "Web site",
+        name: "JamiiHub",
         url: "https://...",
     }],
 };

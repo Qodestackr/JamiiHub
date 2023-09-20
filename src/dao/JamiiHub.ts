@@ -33,8 +33,8 @@ const tokenVotingPluginInstallParams: TokenVotingPluginInstall = {
         votingMode: VotingMode.EARLY_EXECUTION, // default is STANDARD. other options: EARLY_EXECUTION, VOTE_REPLACEMENT
     },
     newToken: {
-        name: "Token", // the name of your token
-        symbol: "TOK", // the symbol for your token. shouldn't be more than 5 letters
+        name: "JAMII", // the name of your token
+        symbol: "JAM", // the symbol for your token. shouldn't be more than 5 letters
         decimals: 18, // the number of decimals your token uses
         minter: "0x...", // optional. if you don't define any, we'll use the standard OZ ERC20 contract. Otherwise, you can define your own token minter contract address.
         balances: [
@@ -52,7 +52,7 @@ const tokenVotingInstallItem = TokenVotingClient.encoding
 
 const createDaoParams: CreateDaoParams = {
     metadataUri,
-    ensSubdomain: "my-org", // my-org.dao.eth
+    ensSubdomain: "jamiihub.dao.eth", // my-org.dao.eth
     plugins: [tokenVotingInstallItem], // plugin array cannot be empty or the transaction will fail. you need at least one governance mechanism to create your DAO.
 };
 

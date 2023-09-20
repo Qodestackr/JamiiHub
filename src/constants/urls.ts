@@ -1,4 +1,4 @@
-export const JAMII_DAO_BASE_URL = "/api/jamii-dao";
+export const JAMII_DAO_BASE_URL = `http://localhost:8000/api/`;
 export const FONBANK_WALLET = `https://pay.fonbnk.com/wallet`
 export const FONBANK_PHONE_PAGE = `https://pay.fonbnk.com/phone`
 
@@ -12,7 +12,6 @@ export const GET_MEMBERS_URL = `${JAMII_DAO_BASE_URL}/members`;
 export const ADD_MEMBER_URL = `${JAMII_DAO_BASE_URL}/members/add`;
 export const GET_MEMBER_DETAILS_URL = (memberId: string) =>
   `${JAMII_DAO_BASE_URL}/members/${memberId}`;
-export const MEMBER_REQUESTS_URL = `${JAMII_DAO_BASE_URL}/member-requests`;
 
 // Proposals
 export const GET_PROPOSALS_URL = `${JAMII_DAO_BASE_URL}/proposals`;

@@ -1,5 +1,4 @@
 import {
-    Client,
     CreateDaoParams,
     DaoCreationSteps,
     MultisigClient,
@@ -7,7 +6,6 @@ import {
 } from "@aragon/sdk-client";
 import { GasFeeEstimation } from "@aragon/sdk-client-common";
 import { client } from "../context/aragonContext";
-
 
 // Addresses which will be allowed to vote in the Multisig plugin.
 const members: string[] = [
@@ -42,7 +40,7 @@ const metadataUri: string = await client.methods.pinMetadata({
 
 const createParams: CreateDaoParams = {
     metadataUri,
-    ensSubdomain: "my-org", // my-org.dao.eth
+    ensSubdomain: "jamiihub.dao.eth", // my-org.dao.eth
     plugins: [multisigPluginInstallItem],
 };
 
