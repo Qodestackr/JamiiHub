@@ -1,10 +1,4 @@
-import {
-    Client,
-} from "@aragon/sdk-client";
-import { context } from "../../context/aragonContext";
-
-// Instantiate the general purpose client from the Aragon OSx SDK context.
-const client: Client = new Client(context);
+import { client } from "../../context/aragonContext";
 
 const protocolVersion = await client.methods
     .getProtocolVersion(

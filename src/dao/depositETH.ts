@@ -1,9 +1,8 @@
-import { Client, DaoDepositSteps, DepositParams } from "@aragon/sdk-client";
+import { DaoDepositSteps, DepositParams } from "@aragon/sdk-client";
 import { GasFeeEstimation, TokenType } from "@aragon/sdk-client-common";
-import { context } from "../context/aragonContext";
+import { client } from "../context/aragonContext";
 
 // Instantiate the general purpose client from the Aragon OSx SDK context.
-const client: Client = new Client(context);
 
 const depositParams: DepositParams = {
     daoAddressOrEns: "jamiihub.dao.eth",

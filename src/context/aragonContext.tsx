@@ -1,5 +1,5 @@
 import { Wallet } from "@ethersproject/wallet";
-import { Context, ContextParams } from "@aragon/sdk-client";
+import { Context, ContextParams, Client } from "@aragon/sdk-client";
 import { SupportedNetwork } from "@aragon/sdk-client-common";
 
 //  TODO: Use Infura or Alechmy.
@@ -25,3 +25,5 @@ export const contextParams: ContextParams = {
 };
 
 export const context: Context = new Context(contextParams);
+// Instantiate the general purpose client from the Aragon OSx SDK context.
+export const client: Client = new Client(context);

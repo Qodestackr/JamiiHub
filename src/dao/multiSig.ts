@@ -6,10 +6,8 @@ import {
     MultisigPluginInstallParams,
 } from "@aragon/sdk-client";
 import { GasFeeEstimation } from "@aragon/sdk-client-common";
-import { context } from "../context/aragonContext";
+import { client } from "../context/aragonContext";
 
-// Instantiate a client from the Aragon OSx SDK context.
-const client: Client = new Client(context);
 
 // Addresses which will be allowed to vote in the Multisig plugin.
 const members: string[] = [

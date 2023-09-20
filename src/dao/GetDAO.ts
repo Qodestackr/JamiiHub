@@ -1,14 +1,10 @@
 import {
-    Client,
     DaoListItem,
     DaoQueryParams,
     DaoSortBy,
 } from "@aragon/sdk-client";
 import { SortDirection } from "@aragon/sdk-client-common";
-import { context } from "../context/aragonContext";
-
-// Instantiate the general purpose client from the Aragon OSx SDK context.
-const client: Client = new Client(context);
+import { client } from "../context/aragonContext";
 
 const queryParams: DaoQueryParams = {
     skip: 0, // optional

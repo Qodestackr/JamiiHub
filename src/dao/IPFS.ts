@@ -1,8 +1,5 @@
-import { Client, DaoMetadata } from "@aragon/sdk-client";
-import { context } from "../context/aragonContext";
-
-// Instantiate the general purpose client from the Aragon OSx SDK context.
-const client: Client = new Client(context);
+import { DaoMetadata } from "@aragon/sdk-client";
+import { client } from "../context/aragonContext";
 
 // The Metadata object containing the details of the DAO.
 const metadata: DaoMetadata = {
